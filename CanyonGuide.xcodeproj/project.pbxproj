@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9665BC1E870C8200FB6CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665BB1E870C8200FB6CE4 /* AppDelegate.swift */; };
+		CC9665BE1E870C8200FB6CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665BD1E870C8200FB6CE4 /* ViewController.swift */; };
+		CC9665C11E870C8200FB6CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9665BF1E870C8200FB6CE4 /* Main.storyboard */; };
+		CC9665C31E870C8200FB6CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9665C21E870C8200FB6CE4 /* Assets.xcassets */; };
+		CC9665C61E870C8200FB6CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9665C41E870C8200FB6CE4 /* LaunchScreen.storyboard */; };
+		CC9665D11E870C8200FB6CE4 /* CanyonGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665D01E870C8200FB6CE4 /* CanyonGuideTests.swift */; };
+		CC9665DC1E870C8200FB6CE4 /* CanyonGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665DB1E870C8200FB6CE4 /* CanyonGuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC9665CD1E870C8200FB6CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9665B01E870C8200FB6CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9665B71E870C8200FB6CE4;
+			remoteInfo = CanyonGuide;
+		};
+		CC9665D81E870C8200FB6CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9665B01E870C8200FB6CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9665B71E870C8200FB6CE4;
+			remoteInfo = CanyonGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC9665B81E870C8200FB6CE4 /* CanyonGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanyonGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9665BB1E870C8200FB6CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC9665BD1E870C8200FB6CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC9665C01E870C8200FB6CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9665C21E870C8200FB6CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC9665C51E870C8200FB6CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC9665C71E870C8200FB6CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9665CC1E870C8200FB6CE4 /* CanyonGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyonGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9665D01E870C8200FB6CE4 /* CanyonGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonGuideTests.swift; sourceTree = "<group>"; };
+		CC9665D21E870C8200FB6CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9665D71E870C8200FB6CE4 /* CanyonGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyonGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9665DB1E870C8200FB6CE4 /* CanyonGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonGuideUITests.swift; sourceTree = "<group>"; };
+		CC9665DD1E870C8200FB6CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9665B51E870C8200FB6CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9665C91E870C8200FB6CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9665D41E870C8200FB6CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9665AF1E870C8200FB6CE4 = {
+			isa = PBXGroup;
+			children = (
+				CC9665BA1E870C8200FB6CE4 /* CanyonGuide */,
+				CC9665CF1E870C8200FB6CE4 /* CanyonGuideTests */,
+				CC9665DA1E870C8200FB6CE4 /* CanyonGuideUITests */,
+				CC9665B91E870C8200FB6CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9665B91E870C8200FB6CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9665B81E870C8200FB6CE4 /* CanyonGuide.app */,
+				CC9665CC1E870C8200FB6CE4 /* CanyonGuideTests.xctest */,
+				CC9665D71E870C8200FB6CE4 /* CanyonGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9665BA1E870C8200FB6CE4 /* CanyonGuide */ = {
+			isa = PBXGroup;
+			children = (
+				CC9665BB1E870C8200FB6CE4 /* AppDelegate.swift */,
+				CC9665BD1E870C8200FB6CE4 /* ViewController.swift */,
+				CC9665BF1E870C8200FB6CE4 /* Main.storyboard */,
+				CC9665C21E870C8200FB6CE4 /* Assets.xcassets */,
+				CC9665C41E870C8200FB6CE4 /* LaunchScreen.storyboard */,
+				CC9665C71E870C8200FB6CE4 /* Info.plist */,
+			);
+			path = CanyonGuide;
+			sourceTree = "<group>";
+		};
+		CC9665CF1E870C8200FB6CE4 /* CanyonGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9665D01E870C8200FB6CE4 /* CanyonGuideTests.swift */,
+				CC9665D21E870C8200FB6CE4 /* Info.plist */,
+			);
+			path = CanyonGuideTests;
+			sourceTree = "<group>";
+		};
+		CC9665DA1E870C8200FB6CE4 /* CanyonGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9665DB1E870C8200FB6CE4 /* CanyonGuideUITests.swift */,
+				CC9665DD1E870C8200FB6CE4 /* Info.plist */,
+			);
+			path = CanyonGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9665B71E870C8200FB6CE4 /* CanyonGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9665E01E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuide" */;
+			buildPhases = (
+				CC9665B41E870C8200FB6CE4 /* Sources */,
+				CC9665B51E870C8200FB6CE4 /* Frameworks */,
+				CC9665B61E870C8200FB6CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanyonGuide;
+			productName = CanyonGuide;
+			productReference = CC9665B81E870C8200FB6CE4 /* CanyonGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC9665CB1E870C8200FB6CE4 /* CanyonGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9665E31E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideTests" */;
+			buildPhases = (
+				CC9665C81E870C8200FB6CE4 /* Sources */,
+				CC9665C91E870C8200FB6CE4 /* Frameworks */,
+				CC9665CA1E870C8200FB6CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9665CE1E870C8200FB6CE4 /* PBXTargetDependency */,
+			);
+			name = CanyonGuideTests;
+			productName = CanyonGuideTests;
+			productReference = CC9665CC1E870C8200FB6CE4 /* CanyonGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC9665D61E870C8200FB6CE4 /* CanyonGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9665E61E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideUITests" */;
+			buildPhases = (
+				CC9665D31E870C8200FB6CE4 /* Sources */,
+				CC9665D41E870C8200FB6CE4 /* Frameworks */,
+				CC9665D51E870C8200FB6CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9665D91E870C8200FB6CE4 /* PBXTargetDependency */,
+			);
+			name = CanyonGuideUITests;
+			productName = CanyonGuideUITests;
+			productReference = CC9665D71E870C8200FB6CE4 /* CanyonGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9665B01E870C8200FB6CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sediment Labs";
+				TargetAttributes = {
+					CC9665B71E870C8200FB6CE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC9665CB1E870C8200FB6CE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC9665B71E870C8200FB6CE4;
+					};
+					CC9665D61E870C8200FB6CE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC9665B71E870C8200FB6CE4;
+					};
+				};
+			};
+			buildConfigurationList = CC9665B31E870C8200FB6CE4 /* Build configuration list for PBXProject "CanyonGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9665AF1E870C8200FB6CE4;
+			productRefGroup = CC9665B91E870C8200FB6CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9665B71E870C8200FB6CE4 /* CanyonGuide */,
+				CC9665CB1E870C8200FB6CE4 /* CanyonGuideTests */,
+				CC9665D61E870C8200FB6CE4 /* CanyonGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9665B61E870C8200FB6CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9665C61E870C8200FB6CE4 /* LaunchScreen.storyboard in Resources */,
+				CC9665C31E870C8200FB6CE4 /* Assets.xcassets in Resources */,
+				CC9665C11E870C8200FB6CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9665CA1E870C8200FB6CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9665D51E870C8200FB6CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9665B41E870C8200FB6CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9665BE1E870C8200FB6CE4 /* ViewController.swift in Sources */,
+				CC9665BC1E870C8200FB6CE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9665C81E870C8200FB6CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9665D11E870C8200FB6CE4 /* CanyonGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9665D31E870C8200FB6CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9665DC1E870C8200FB6CE4 /* CanyonGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC9665CE1E870C8200FB6CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9665B71E870C8200FB6CE4 /* CanyonGuide */;
+			targetProxy = CC9665CD1E870C8200FB6CE4 /* PBXContainerItemProxy */;
+		};
+		CC9665D91E870C8200FB6CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9665B71E870C8200FB6CE4 /* CanyonGuide */;
+			targetProxy = CC9665D81E870C8200FB6CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC9665BF1E870C8200FB6CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9665C01E870C8200FB6CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC9665C41E870C8200FB6CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9665C51E870C8200FB6CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC9665DE1E870C8200FB6CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC9665DF1E870C8200FB6CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC9665E11E870C8200FB6CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanyonGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC9665E21E870C8200FB6CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanyonGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC9665E41E870C8200FB6CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanyonGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanyonGuide.app/CanyonGuide";
+			};
+			name = Debug;
+		};
+		CC9665E51E870C8200FB6CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanyonGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanyonGuide.app/CanyonGuide";
+			};
+			name = Release;
+		};
+		CC9665E71E870C8200FB6CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CanyonGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CanyonGuide;
+			};
+			name = Debug;
+		};
+		CC9665E81E870C8200FB6CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CanyonGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CanyonGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9665B31E870C8200FB6CE4 /* Build configuration list for PBXProject "CanyonGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9665DE1E870C8200FB6CE4 /* Debug */,
+				CC9665DF1E870C8200FB6CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9665E01E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9665E11E870C8200FB6CE4 /* Debug */,
+				CC9665E21E870C8200FB6CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC9665E31E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9665E41E870C8200FB6CE4 /* Debug */,
+				CC9665E51E870C8200FB6CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC9665E61E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9665E71E870C8200FB6CE4 /* Debug */,
+				CC9665E81E870C8200FB6CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9665B01E870C8200FB6CE4 /* Project object */;
+}
