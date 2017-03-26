@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083CEBCACC330523F4D861FF /* Pods_CanyonGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6847A05CF9AB25C63B2120 /* Pods_CanyonGuide.framework */; };
 		CC9665BC1E870C8200FB6CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665BB1E870C8200FB6CE4 /* AppDelegate.swift */; };
 		CC9665BE1E870C8200FB6CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665BD1E870C8200FB6CE4 /* ViewController.swift */; };
 		CC9665C11E870C8200FB6CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9665BF1E870C8200FB6CE4 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		CC9665C61E870C8200FB6CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9665C41E870C8200FB6CE4 /* LaunchScreen.storyboard */; };
 		CC9665D11E870C8200FB6CE4 /* CanyonGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665D01E870C8200FB6CE4 /* CanyonGuideTests.swift */; };
 		CC9665DC1E870C8200FB6CE4 /* CanyonGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9665DB1E870C8200FB6CE4 /* CanyonGuideUITests.swift */; };
+		CC9665EA1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */; };
+		CC9665EB1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */; };
+		CC9665EC1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */; };
+		E1B57634D14371F7B8023CC8 /* Pods_CanyonGuideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D910997D5CD3251CFECF3A8 /* Pods_CanyonGuideUITests.framework */; };
+		F241A51590A23DE5FC082DBF /* Pods_CanyonGuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED14E8FF72BB2D9618D55601 /* Pods_CanyonGuideTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284C8D1CB0BD6A8A2E2E46B1 /* Pods-CanyonGuideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuideUITests/Pods-CanyonGuideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D910997D5CD3251CFECF3A8 /* Pods_CanyonGuideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanyonGuideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6847A05CF9AB25C63B2120 /* Pods_CanyonGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanyonGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784A43F55DAD2CC939290E2 /* Pods-CanyonGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuide/Pods-CanyonGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		C31EF51325B3381DDB05D2C7 /* Pods-CanyonGuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuideTests/Pods-CanyonGuideTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC9665B81E870C8200FB6CE4 /* CanyonGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanyonGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9665BB1E870C8200FB6CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9665BD1E870C8200FB6CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		CC9665D71E870C8200FB6CE4 /* CanyonGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyonGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9665DB1E870C8200FB6CE4 /* CanyonGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonGuideUITests.swift; sourceTree = "<group>"; };
 		CC9665DD1E870C8200FB6CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1A0369A96D9E8321DDDDB3D /* Pods-CanyonGuideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuideUITests/Pods-CanyonGuideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6D90C6BC63A9605B9ECC8CE /* Pods-CanyonGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuide/Pods-CanyonGuide.release.xcconfig"; sourceTree = "<group>"; };
+		E120BDFC0229772BCE1A1C2D /* Pods-CanyonGuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuideTests/Pods-CanyonGuideTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED14E8FF72BB2D9618D55601 /* Pods_CanyonGuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanyonGuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083CEBCACC330523F4D861FF /* Pods_CanyonGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F241A51590A23DE5FC082DBF /* Pods_CanyonGuideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B57634D14371F7B8023CC8 /* Pods_CanyonGuideUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0241DD4A1B08347C1C7DAFC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7784A43F55DAD2CC939290E2 /* Pods-CanyonGuide.debug.xcconfig */,
+				D6D90C6BC63A9605B9ECC8CE /* Pods-CanyonGuide.release.xcconfig */,
+				C31EF51325B3381DDB05D2C7 /* Pods-CanyonGuideTests.debug.xcconfig */,
+				E120BDFC0229772BCE1A1C2D /* Pods-CanyonGuideTests.release.xcconfig */,
+				284C8D1CB0BD6A8A2E2E46B1 /* Pods-CanyonGuideUITests.debug.xcconfig */,
+				D1A0369A96D9E8321DDDDB3D /* Pods-CanyonGuideUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B0A290DBF50548C4F20E040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B6847A05CF9AB25C63B2120 /* Pods_CanyonGuide.framework */,
+				ED14E8FF72BB2D9618D55601 /* Pods_CanyonGuideTests.framework */,
+				2D910997D5CD3251CFECF3A8 /* Pods_CanyonGuideUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC9665AF1E870C8200FB6CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				CC9665CF1E870C8200FB6CE4 /* CanyonGuideTests */,
 				CC9665DA1E870C8200FB6CE4 /* CanyonGuideUITests */,
 				CC9665B91E870C8200FB6CE4 /* Products */,
+				0241DD4A1B08347C1C7DAFC9 /* Pods */,
+				2B0A290DBF50548C4F20E040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +147,7 @@
 				CC9665C21E870C8200FB6CE4 /* Assets.xcassets */,
 				CC9665C41E870C8200FB6CE4 /* LaunchScreen.storyboard */,
 				CC9665C71E870C8200FB6CE4 /* Info.plist */,
+				CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */,
 			);
 			path = CanyonGuide;
 			sourceTree = "<group>";
@@ -132,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9665E01E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuide" */;
 			buildPhases = (
+				3852FC33E459EE75D09094FC /* [CP] Check Pods Manifest.lock */,
 				CC9665B41E870C8200FB6CE4 /* Sources */,
 				CC9665B51E870C8200FB6CE4 /* Frameworks */,
 				CC9665B61E870C8200FB6CE4 /* Resources */,
+				2F022F46027CC83BEAA3E8DF /* [CP] Embed Pods Frameworks */,
+				2B183860710234F0F3B2E4AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9665E31E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideTests" */;
 			buildPhases = (
+				487CC48144E14C9E296C6499 /* [CP] Check Pods Manifest.lock */,
 				CC9665C81E870C8200FB6CE4 /* Sources */,
 				CC9665C91E870C8200FB6CE4 /* Frameworks */,
 				CC9665CA1E870C8200FB6CE4 /* Resources */,
+				1B82441569BA4F5BFCCB1A27 /* [CP] Embed Pods Frameworks */,
+				E9C0D51E80206B7D501E6D81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9665E61E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideUITests" */;
 			buildPhases = (
+				D74EB37F1C0524F2946CAA8E /* [CP] Check Pods Manifest.lock */,
 				CC9665D31E870C8200FB6CE4 /* Sources */,
 				CC9665D41E870C8200FB6CE4 /* Frameworks */,
 				CC9665D51E870C8200FB6CE4 /* Resources */,
+				E229122F39E3DDCFB666993B /* [CP] Embed Pods Frameworks */,
+				1EED6EA67C7DD1C78695ABE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +247,7 @@
 				TargetAttributes = {
 					CC9665B71E870C8200FB6CE4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 88N6WE74X5;
 						ProvisioningStyle = Automatic;
 					};
 					CC9665CB1E870C8200FB6CE4 = {
@@ -233,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9665C61E870C8200FB6CE4 /* LaunchScreen.storyboard in Resources */,
+				CC9665EA1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */,
 				CC9665C31E870C8200FB6CE4 /* Assets.xcassets in Resources */,
 				CC9665C11E870C8200FB6CE4 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9665EB1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +306,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9665EC1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B82441569BA4F5BFCCB1A27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanyonGuideTests/Pods-CanyonGuideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EED6EA67C7DD1C78695ABE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanyonGuideUITests/Pods-CanyonGuideUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B183860710234F0F3B2E4AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanyonGuide/Pods-CanyonGuide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F022F46027CC83BEAA3E8DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanyonGuide/Pods-CanyonGuide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3852FC33E459EE75D09094FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		487CC48144E14C9E296C6499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D74EB37F1C0524F2946CAA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E229122F39E3DDCFB666993B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanyonGuideUITests/Pods-CanyonGuideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C0D51E80206B7D501E6D81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanyonGuideTests/Pods-CanyonGuideTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC9665B41E870C8200FB6CE4 /* Sources */ = {
@@ -410,8 +606,10 @@
 		};
 		CC9665E11E870C8200FB6CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7784A43F55DAD2CC939290E2 /* Pods-CanyonGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88N6WE74X5;
 				INFOPLIST_FILE = CanyonGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuide;
@@ -422,8 +620,10 @@
 		};
 		CC9665E21E870C8200FB6CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D90C6BC63A9605B9ECC8CE /* Pods-CanyonGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88N6WE74X5;
 				INFOPLIST_FILE = CanyonGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SedimentLabs.CanyonGuide;
@@ -434,6 +634,7 @@
 		};
 		CC9665E41E870C8200FB6CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31EF51325B3381DDB05D2C7 /* Pods-CanyonGuideTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +649,7 @@
 		};
 		CC9665E51E870C8200FB6CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E120BDFC0229772BCE1A1C2D /* Pods-CanyonGuideTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +664,7 @@
 		};
 		CC9665E71E870C8200FB6CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284C8D1CB0BD6A8A2E2E46B1 /* Pods-CanyonGuideUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CanyonGuideUITests/Info.plist;
@@ -475,6 +678,7 @@
 		};
 		CC9665E81E870C8200FB6CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A0369A96D9E8321DDDDB3D /* Pods-CanyonGuideUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CanyonGuideUITests/Info.plist;
@@ -505,6 +709,7 @@
 				CC9665E21E870C8200FB6CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9665E31E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +718,7 @@
 				CC9665E51E870C8200FB6CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9665E61E870C8200FB6CE4 /* Build configuration list for PBXNativeTarget "CanyonGuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +727,7 @@
 				CC9665E81E870C8200FB6CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
