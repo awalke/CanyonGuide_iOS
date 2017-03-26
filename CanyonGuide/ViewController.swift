@@ -10,8 +10,9 @@ import UIKit
 import Firebase
 import GoogleSignIn
 import FirebaseDatabase
+import CoreLocation
 
-class ViewController: UIViewController, GIDSignInUIDelegate{
+class ViewController: UIViewController, GIDSignInUIDelegate, CLLocationManagerDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()

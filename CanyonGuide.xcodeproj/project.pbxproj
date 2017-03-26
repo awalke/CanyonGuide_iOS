@@ -18,6 +18,9 @@
 		CC9665EA1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */; };
 		CC9665EB1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */; };
 		CC9665EC1E870C9200FB6CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */; };
+		CCCFF9F81E874AFE005EBEAD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCFF9F71E874AFE005EBEAD /* MapViewController.swift */; };
+		CCCFF9F91E874AFE005EBEAD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCFF9F71E874AFE005EBEAD /* MapViewController.swift */; };
+		CCCFF9FA1E874AFE005EBEAD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCFF9F71E874AFE005EBEAD /* MapViewController.swift */; };
 		E1B57634D14371F7B8023CC8 /* Pods_CanyonGuideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D910997D5CD3251CFECF3A8 /* Pods_CanyonGuideUITests.framework */; };
 		F241A51590A23DE5FC082DBF /* Pods_CanyonGuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED14E8FF72BB2D9618D55601 /* Pods_CanyonGuideTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +62,7 @@
 		CC9665DB1E870C8200FB6CE4 /* CanyonGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonGuideUITests.swift; sourceTree = "<group>"; };
 		CC9665DD1E870C8200FB6CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCCFF9F71E874AFE005EBEAD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D1A0369A96D9E8321DDDDB3D /* Pods-CanyonGuideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuideUITests/Pods-CanyonGuideUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6D90C6BC63A9605B9ECC8CE /* Pods-CanyonGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuide/Pods-CanyonGuide.release.xcconfig"; sourceTree = "<group>"; };
 		E120BDFC0229772BCE1A1C2D /* Pods-CanyonGuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanyonGuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanyonGuideTests/Pods-CanyonGuideTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				CC9665C41E870C8200FB6CE4 /* LaunchScreen.storyboard */,
 				CC9665C71E870C8200FB6CE4 /* Info.plist */,
 				CC9665E91E870C9200FB6CE4 /* GoogleService-Info.plist */,
+				CCCFF9F71E874AFE005EBEAD /* MapViewController.swift */,
 			);
 			path = CanyonGuide;
 			sourceTree = "<group>";
@@ -456,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9665BE1E870C8200FB6CE4 /* ViewController.swift in Sources */,
+				CCCFF9F81E874AFE005EBEAD /* MapViewController.swift in Sources */,
 				CC9665BC1E870C8200FB6CE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9665D11E870C8200FB6CE4 /* CanyonGuideTests.swift in Sources */,
+				CCCFF9F91E874AFE005EBEAD /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9665DC1E870C8200FB6CE4 /* CanyonGuideUITests.swift in Sources */,
+				CCCFF9FA1E874AFE005EBEAD /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,12 +1,14 @@
 import UIKit
 import Firebase
 import GoogleSignIn
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     
     var window: UIWindow?
     
+    let locationManager = CLLocationManager()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -15,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
+        
+        locationManager.delegate = self
+        locationManager.requestAlwaysAuthorization()
         return true
     }
     
@@ -75,5 +80,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             GIDSignIn.sharedInstance().signOut()
         }
         
+    }
+    
+    func handleEvent(forRegion region: CLRegion!) {
+        print("Geofence triggered!")
+    }
+}
+
+extension AppDelegate: CLLocationManagerDelegate {
+    
+    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        if region is CLCircularRegion {
+            handleEvent(forRegion: region)
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
+        if region is CLCircularRegion {
+            handleEvent(forRegion: region)
+        }
     }
 }
